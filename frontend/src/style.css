@@ -1,0 +1,227 @@
+.lti-config-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  color: #555;
+}
+
+.tabs button.active {
+  border-bottom-color: #4CAF50;
+  color: #333;
+}
+
+.form-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  min-height: 80px;
+}
+
+.help-text {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.add-block {
+  margin-top: 10px;
+}
+
+.save-btn {
+  background: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #45a049;
+}
+
+.cancel-btn {
+  background: #f1f1f1;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: #ddd;
+}
+
+h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+
+
+
+/* Для модального окна */
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.block-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.block-option {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.block-option:hover {
+  background-color: #f5f5f5;
+  border-color: #4CAF50;
+}
+
+/* Для настройки LTI инструмента */
+
+.container {
+  display: flex;
+  gap: 20px;
+  margin: '20px 0';
+}
+
+.preview {
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 16px;
+  background: #f9f9f9;
+}
+
+.title {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.notice {
+  color: #666;
+}
+
+.inspector {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.inspectorTitle {
+  margin-bottom: 16px;
+  color: #444;
+  font-weight: 700;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 80px;
+  resize: vertical;
+}
+
+.saveButton {
+  padding: 10px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
