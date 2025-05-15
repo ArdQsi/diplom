@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OAuth1SignerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-05-19T14:26:42" hostname="LAPTOP-7RD62209" time="0.181">
+  <properties/>
+  <testcase name="sign should preserve existing headers()" classname="OAuth1SignerTest" time="0.123"/>
+  <testcase name="sign should generate different nonce for each call()" classname="OAuth1SignerTest" time="0.018"/>
+  <testcase name="sign should include required OAuth parameters in Authorization header()" classname="OAuth1SignerTest" time="0.003"/>
+  <testcase name="sign should include current timestamp()" classname="OAuth1SignerTest" time="0.003"/>
+  <testcase name="sign should work with different HTTP methods()" classname="OAuth1SignerTest" time="0.004"/>
+  <testcase name="sign should include query parameters from URL in signature()" classname="OAuth1SignerTest" time="0.007"/>
+  <testcase name="sign should include body parameters in signature()" classname="OAuth1SignerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

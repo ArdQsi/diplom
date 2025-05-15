@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>LTI Launch</title>
+</head>
+<body>
+<form th:id="${element_id}"
+      th:action="${launch_url}"
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+      style="display:none;">
+    <!-- Динамическое добавление параметров LTI -->
+    <input th:each="entry : ${lti_parameters.entrySet()}"
+           th:name="${entry.key}"
+           th:value="${entry.value}"
+           type="hidden"/>
+
+    <input type="submit" th:value="'Press to Launch'"/>
+</form>
+
+<!-- JavaScript для автоматического submit -->
+<script type="text/javascript">
+    (function (d) {
+        var element = d.getElementById("[[${element_id}]]");
+        if (element) {
+            element.submit();
+        }
+    }(document));
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+lesson1:
+  version: "1.1"
+  toolName: "lti-app"
+  toolDescription: ""
+  toolUrl: "https://saltire.lti.app/tool"
+  consumerKey: "key"
+  sharedSecret: "secret"
+  resourceLinkId: "88391-e1919-bb3456"
+  customParams: ""
+  gradingRule: "none"
+lesson2:
+  version: "1.1"
+  toolName: "react"
+  toolDescription: ""
+  toolUrl: "https://saltire.lti.app/tool"
+  consumerKey: "key"
+  sharedSecret: "secret"
+  resourceLinkId: "88391-e1919-bb3457"
+  customParams: ""
+  gradingRule: "none"
+lesson3:
+  version: "1.3"
+  toolName: "lti"
+  toolDescription: ""
+  oidcUrl: "https://saltire.lti.app/tool/oidc"
+  toolUrl: "https://saltire.lti.app/tool"
+  rsaPrivateKey: "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnCzDwSEC/vK0Q\n\
+    pwkBA7TgmgqDnjtidCnY2//Qk8nnmrUnkXMdijhTx/QTSgz1aqh0Q+odneHO9/6X\nLxyPNi+cLp/gAU3oVv3LUoCc55aMf/uEnVDCcgH93rbps0fU8BV+3YOP75QgMAZl\n\
+    UbUk8Z2VO1e3jROKi7HLdJ9c7jTT1L8Q7sL+86BYY2+FZMDk2A/k+4d+PCPkiFKb\nTG+LSfT5iZxDnyQubDC7vGQYWvvaGdgjxkurD7qlyRr+MvdSo+4gV0S+9KthY6AR\n\
+    0uO1lPrv//8UTjOL+O0AWgzV3ubBgKhzdY0LIaYtC8KMKF+OxX/MGdBa6jhFMIR+\nt9zdfVOFAgMBAAECggEAJYs6n9rBcMa9iBdeyvNUEUIV+GCVPMrah/LkY3MAB3XK\n\
+    Xv8OJjbFc7EmfrpfQL6M53rHMQpl8PBksIKmctqtJzeEd+KbKcv5hVwA66MSf3gZ\nZgQ8nUNmBrLqngqNK8MdNbMgSXbBrl1U5qtPYSML9blNfQPwfyxoFNAcrFSem3hh\n\
+    y4V/MwCqnWBpL1k3+1GPWFpWTzpzi3x75E76P4jeaYZXCO9wHeFfcuQax9k8Zq+K\ndFSXkc849arnw8vVadwHL3ymfg3yj1qNJHI7UH1jwSr12JI0C2f5noxkeIlWjH3A\n\
+    o/dwfH/Xb38ElIxqJH6vQFGdlUg9d6FjAueld8KOkQKBgQDVZoJZeSCQdmQ1eNDy\nvf18dccipAL8GsqqXOCWFfnrcOyApySEVGQciYSmfeKuLsTB1xXSRKmM+1KKUkqx\n\
+    /iquKLVrzHqUtfnP/WRQSDGSiVyAGqOWOG3kTp1XWTnM3A6oZKdNXj6q92u7IeBn\nOUb8+V4Dekx5oH1AmE8nv4JsMQKBgQDIY7IY1BD3gcO+S9C/AkyN2SqE+BpwyeI8\n\
+    LyoCbBYW73Dy+PYxn55GEBmrrUz3hfm7bV3tISB8LlWsz2vT7qInBdAI3BWG7vd2\naKgW+/Ar07cADwwOg8I24FdCJsdu9vIku+ykeHNRN1i1rCjJkiO+wMPkbcYKLZ3P\n\
+    z5zYQIJLlQKBgCHjGFnq8S/fjQQsvkl9wA4OiePHVa4A9yPcgdFzhe9MTFIVuKfG\n2urpL4ZcwS1VweriI9XzD1WS50WN0cy4BsEHN9/5ZZHN3/CWVWKmRDD33Rd+o3GM\n\
+    Xm79yOCBC7urSiyVZzfS+nKdvZ7Gv2LE5q/vTW2R8yjxQlKKnS87qxNRAoGBAJbp\n3hqsuwprg8swtcjkJls9jbQOVXtTzzmcG3svg4NKWDnkHSVKHJyPS4XrQee30lfB\n\
+    Cden9xsOmh9HJuG4+g2BZycE+IFiPqPCNbT5j+qxy0QUEPRtbjp9wblkExYSjFH1\n5UYIIHCtyfUn7p+/m4PxEJZbxaWsrQjwRiLmkjnxAoGADt0/CgDAA1XRAXsjMkYk\n\
+    KwNOdpAIamI0ia9wVCVET9aKsdBo9QmGB6QPGSTltKCZNU5YI/DQ30OmDxgO/gXx\nfGF0q00qrsPSOTKhIUSH3AncDhNlsk1L9/DFdQonuvOWfaPp4t/x9KHX+u9f0vIi\n\
+    zirAxMB8JGCVZgLcvZ5x3z0=\n-----END PRIVATE KEY-----"
+  rsaKeyId: "f7mdvdmmni"
+  customParams: ""
+  gradingRule: "none"
